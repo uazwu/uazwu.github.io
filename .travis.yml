@@ -9,7 +9,7 @@ branches:
   only:
     - source # build source branch only
 before_script:
-  - cp -r ./idea/*.md ./source/_posts/
+  - cp -r ./idea/ ./source/_posts/
 script:
   - hexo clean # clean static files
   - hexo generate # generate static files
