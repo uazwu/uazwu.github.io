@@ -8,8 +8,6 @@ install:
 branches:
   only:
     - source # build source branch only
-before_script:
-  - mv ./idea/* ./source/_posts/
 script:
   - hexo clean # clean static files
   - hexo generate # generate static files
