@@ -9,7 +9,7 @@ branches:
   only:
     - source # build source branch only
 script:
-  - hexo clean # generate static files
+  - hexo clean # clean static files
   - hexo generate # generate static files
 deploy:
   provider: pages
