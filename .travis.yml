@@ -8,8 +8,9 @@ install:
 branches:
   only:
     - source # build source branch only
+before_script:
+  - cp -r ./idea/*.md ./source/_posts/
 script:
-  - cp ./idea/*.md ./source/_posts/
   - hexo clean # clean static files
   - hexo generate # generate static files
 after_script:
