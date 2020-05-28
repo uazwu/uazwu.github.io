@@ -11,11 +11,19 @@ branches:
 script:
   - hexo clean # clean static files
   - hexo generate # generate static files
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_REPO_TOKEN
-  keep-history: true
-  on:
-    branch: master
-  local-dir: public
+after_script:
+    - cd ./public
+    - git init
+    - git config user.name "uazwu"
+    - git config user.email "991552992@qq.com"
+    - git add .
+    - git commit -m "It's A Travis CI Builder"
+    - git push --force --quiet "https://${GITHUB_REPO_TOKEN}@github.com/uazwu/uazwu.github.io.git" master:master
+# deploy:
+#   provider: pages
+#   skip-cleanup: true
+#   github-token: $GITHUB_REPO_TOKEN
+#   keep-history: true
+#   on:
+#     branch: master
+#   local-dir: public
