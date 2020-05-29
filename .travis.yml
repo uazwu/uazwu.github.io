@@ -4,7 +4,8 @@ node_js:
   - 10 # use nodejs v10 LTS
 cache: npm
 install:
-  - git clone -b idea "https://${GITHUB_REPO_TOKEN}@github.com:uazwu/uazwu.github.io.git"  source/_posts
+  - git checkout idea # clone -b idea "https://${GITHUB_REPO_TOKEN}@github.com:uazwu/uazwu.github.io.git"  source/_posts
+  - git pull origin idea
   - npm install
 branches:
   only:
