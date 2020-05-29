@@ -4,7 +4,7 @@ node_js:
   - 10 # use nodejs v10 LTS
 cache: npm
 install:
-  - git clone "https://${GITHUB_REPO_TOKEN}@github.com:uazwu/test-trivas-pull.git"  source/_posts
+  - git clone -b idea "https://${GITHUB_REPO_TOKEN}@github.com:uazwu/uazwu.github.io.git"  source/_posts
   - npm install
 branches:
   only:
