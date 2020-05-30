@@ -2,7 +2,12 @@
 title: Skywalking2
 translate_title: skywalking2
 date: 2019-02-28 20:51:06
+categories:
+  - skywalking
+  - skywalking1
 tags:
+  - skywalking-tag
+  - skywalking-tag1
 ---
 Apache SkyWalking
 ==========

@@ -1,8 +1,13 @@
 ---
-title: Skywalking
-translate_title: skywalking
-date: 2019-12-28 20:51:06
+title: Skywalking7
+translate_title: skywalking7
+date: 2019-07-28 20:51:06
+categories:
+  - skywalking
+  - skywalking2
 tags:
+  - skywalking-tag
+  - skywalking-tag2
 ---
 Apache SkyWalking
 ==========
