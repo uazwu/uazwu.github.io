@@ -5,7 +5,6 @@ menu:
   Tags: 標籤
   Repository: 項目
   Books: 書單
-  Github: Github
   Movies: 電影
   Links: 友鏈
   About: 關於
@@ -32,9 +31,9 @@ page:
   links: 友情鏈接
   links-desc: 歡迎交換鏈接，可在當前頁面留言
   about: 關於
-pagination:
+pagination: 
   next: 下一頁
-  prev: 上一頁
+  prev: 上一頁 
   page: 第 %d 頁
   pageof: Page %d of %s
 widget:
@@ -45,7 +44,7 @@ widget:
   categories: 分類
   tagcloud: 標籤雲
   recent_posts: 最新文章
-profile:
+profile: 
   follow: 關注
   skill: 技能
   label: 個人標簽
