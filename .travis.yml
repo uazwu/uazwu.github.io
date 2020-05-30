@@ -13,6 +13,7 @@ script:
   - hexo generate # generate static files
 after_script:
     - cd ./public
+    - echo 'blog.uazw.com' > CNAME
     - git init
     - git config user.name "uazwu"
     - git config user.email "991552992@qq.com"
