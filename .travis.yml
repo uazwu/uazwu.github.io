@@ -9,7 +9,6 @@ branches:
   only:
     - source # build source branch only
 script:
-  - git clone https://0138d16b374280c21c4148ec08d5789ed71e0d68@github.com/wuyongdev/uazw-u.git
   - hexo clean # clean static files
   - hexo generate # generate static files
 after_script:
