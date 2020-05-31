@@ -1,6 +1,6 @@
 ---
-title: tags
-type: tags
-translate_title: tags
-date: 2016-09-05 00:00:00
+title: 标签
+layout: tags
+comments: false
+translate_title: label
 ---

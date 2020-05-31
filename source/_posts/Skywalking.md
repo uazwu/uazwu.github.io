@@ -1,6 +1,7 @@
 ---
 title: Skywalking
 translate_title: skywalking
+comments: false
 date: 2019-1-28 10:51:06
 categories:
   - skywalking
