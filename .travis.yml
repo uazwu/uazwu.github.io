@@ -8,6 +8,12 @@ install:
 branches:
   only:
     - source # build source branch only
+before_script:
+  - sed -i s/GIT_TALK_OWNER/${GITHUB_REPO_TOKEN}/g  ./themes/pure/_config.yml
+  - sed -i s/GIT_TALK_ADMIN/${GIT_TALK_ADMIN}/g  ./themes/pure/_config.yml
+  - sed -i s/GIT_TALK_REPO/${GIT_TALK_REPO}/g  ./themes/pure/_config.yml
+  - sed -i s/GIT_TALK_CLIENTID/${GIT_TALK_CLIENTID}/g  ./themes/pure/_config.yml
+  - sed -i s/GIT_TALK_CLIENTSECRET/${GIT_TALK_CLIENTSECRET}/g  ./themes/pure/_config.yml
 script:
   - hexo clean # clean static files
   - hexo generate # generate static files
