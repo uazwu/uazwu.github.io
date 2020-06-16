@@ -78,3 +78,4 @@ select if(0 != 1, 0, 1);
 select ifnull(null, 0);
 select ifnull(1, 0);
 ```
+
